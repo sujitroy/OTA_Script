@@ -33,10 +33,10 @@ tmp_addons1 = {}
 tmp_addons2 = {}
 tmp_addons1["title"] = "Magisk"
 tmp_addons1["summary"] = "Magisk"
-tmp_addons1["url"] = "https://github.com/topjohnwu/Magisk/releases/download/v19.0/Magisk-v19.0.zip"
+tmp_addons1["url"] = "https://github.com/topjohnwu/Magisk/releases/download/v19.1/Magisk-v19.1.zip"
 tmp_addons2["title"] = "Magisk"
 tmp_addons2["summary"] = "Magisk Uninstaller"
-tmp_addons2["url"] = "https://github.com/topjohnwu/Magisk/releases/download/v19.0/Magisk-uninstaller-20190328.zip"
+tmp_addons2["url"] = "https://github.com/topjohnwu/Magisk/releases/download/v19.1/Magisk-uninstaller-20190501.zip"
 addons.get ("addons").append(tmp_addons1)
 addons.get ("addons").append(tmp_addons2)
 
