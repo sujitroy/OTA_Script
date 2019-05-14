@@ -12,12 +12,12 @@ def md5(fname):
     return hash_md5.hexdigest()
 
 # constants
-donate_url = "https://www.paypal.me/nitinchobhe"
+donate_url = "https://www.paypal.me/rakeshbatra"
 website_url = "https://plus.google.com/communities/111037372581335961267"
-developer = "nitin.chobhe"
-developer_url = "https://forum.xda-developers.com/member.php?u=5044214"
-forum_url= "https://forum.xda-developers.com/pixel-2-xl/development/rom-colt-os-enigma-taimen-t3911826"
-url= "https://sourceforge.net/projects/coltos/files/taimen/"
+developer = "RakeshBatra"
+developer_url = "https://forum.xda-developers.com/member.php?u=5985430"
+forum_url= "https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/rom-coltos-t3808635"
+url= "https://sourceforge.net/projects/coltos/files/OP3_3T_Unified/"
 device = sys.argv[1]
 filename = "ColtOS-Enigma-4.1_OFFICIAL-" + time.strftime('%Y%m%d') + "-" + device + ".zip"
 zip_path = os.path.expanduser("~") + "/colt/out/target/product/" + device + "/"
